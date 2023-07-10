@@ -48,17 +48,83 @@ body {
     font-family: Lato;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 43px;
+    padding: 12px 30px;
     border: none;
     border-radius: 8px;
     background: #E55473;
 
 }
 
+.flower-image {
+    margin-top: 35px;
+}
+
 .red-tulip {
     width: 330px;
-    height: 450px;
+    height: 415px;
     background-repeat: no-repeat;
 }
 
 /* Section-1 styles end */
+
+.flower-shop-section2{
+    background-color: #FFF;
+    /* max-width: 1366px;
+    max-height: 900px; */
+    width: 100hw;
+}
+
+.our-featured-flowers{
+    width: 80%;
+    margin: auto;
+}
+
+.flower-card-1 {
+    width: 220px;
+    height: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+
+.flower-card-2 {
+    width: 220px;
+    height: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-card-3 {
+    width: 220px;
+    height: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-img-1 {
+    width: 166px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.flower-img-2 {
+    width: 166px;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+.flower-img-3 {
+    width: 153px;
+    padding-top: 20px;
+    padding-left: 32px;
+}
+
+.flower-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.flower-cards p {
+    text-align: center;
+}
+
