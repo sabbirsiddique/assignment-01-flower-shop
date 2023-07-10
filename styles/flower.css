@@ -1,0 +1,64 @@
+/* Global style */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Common Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Section-1 styles start*/
+.flower-shop-section1 {
+    width: 1366px;
+    height: 450px;
+    flex-shrink: 0;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.flower-shop-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.heading {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.flower-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+
+.btn-primary {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+
+}
+
+.red-tulip {
+    width: 330px;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+/* Section-1 styles end */
